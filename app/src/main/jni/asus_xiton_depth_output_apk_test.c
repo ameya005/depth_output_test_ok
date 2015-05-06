@@ -86,7 +86,7 @@ void DrawDepth_java( int* pDepth_value, int width, int height )
 		for(x = 0;x< width;x++)
 		{
 			int depth_value = 0;
-			//depth_value ÎªÊµ¼ÊÃ¿¸öÏñËØµÄÉî¶ÈÖµ
+			//depth_value ÎªÊµï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½Öµ
 			depth_value = pDepth_value[width*y+x];
 			pDepth_value[width*y+x] = ((int) (depth_value * 0.0256)) << 16;
 			pDepth_value[width*y+x] |= ((int) (depth_value * 0.0256)) << 8;
@@ -100,7 +100,7 @@ void DrawDepth_java( int* pDepth_value, int width, int height )
 
 }
 
-jboolean Java_com_example_asusdepthoutput_MainActivity_CoventFromDepthTORGB( JNIEnv* env,jobject thiz ,jintArray pDepth,jint width,jint height)
+jboolean Java_com_example_asusdepthoutput_DepthActivity_CoventFromDepthTORGB( JNIEnv* env,jobject thiz ,jintArray pDepth,jint width,jint height)
 {
 	jint * arr;
 	arr = (*env)->GetIntArrayElements(env,pDepth,NULL);

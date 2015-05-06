@@ -25,6 +25,17 @@
                              
             
         </activity>
+
+        <activity android:name="com.example.asusdepthoutput.DepthActivity"
+            android:label="depth output">
+
+        </activity>
+
+        <activity android:name="com.example.asusdepthoutput.RGBActivity"
+            android:label="RGB output">
+
+        </activity>
+
         <service android:name="com.asus.xtionstartlibs.GlobalOSDService"></service>
     </application>   
 </manifest>  
