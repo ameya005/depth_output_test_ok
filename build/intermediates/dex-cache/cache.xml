@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/muojie/AndroidStudioProjects/asus_xtion_depth_output_apk_test1/app/libs/xtionsdk20131010.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c12b97bce429eefda20d15a7d1275d2a6e32e9a0">
+        <dex dex="/home/muojie/AndroidStudioProjects/asus_xtion_depth_output_apk_test1/app/build/intermediates/pre-dexed/debug/xtionsdk20131010-43fb91906fb95b5053ab89a9fddc323a75740a35.jar" />
+    </item>
+    <item
+        jar="/home/muojie/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/muojie/AndroidStudioProjects/asus_xtion_depth_output_apk_test1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-d982fb013b4261f71492f2565ca8d981a879e5ca.jar" />
+    </item>
+
+</items>
